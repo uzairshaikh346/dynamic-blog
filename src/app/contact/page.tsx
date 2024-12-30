@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-16 px-8 sm:px-10 lg:px-12 mt-12">
       <div className="max-w-8xl mx-auto">
@@ -9,7 +9,7 @@ function Contact() {
             Contact Us
           </h2>
           <p className="mt-6 text-xl text-gray-500">
-            Have questions? We'd love to hear from you.
+            Have questions? We d love to hear from you.
           </p>
         </div>
 
