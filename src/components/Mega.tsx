@@ -84,8 +84,8 @@ const Mega: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-auto">
         {posts.map((post, index) => (
           <div className="transition duration-300 ease-in-out transform hover:-translate-y-1" key={post.id}>
-            <div className="shadow-lg rounded-lg overflow-hidden">
-              <BlogCard post={post} isDarkBackground={index % 2 === 0} />
+            <div className="shadow-lg rounded-lg overflow-hidden" key={index}>
+              <BlogCard post={post} />
             </div>
           </div>
         ))}
